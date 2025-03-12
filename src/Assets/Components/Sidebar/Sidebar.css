@@ -1,0 +1,120 @@
+/* Estilos generales del sidebar */
+/* Sidebar con efecto de vidrio (Glassmorphism) */
+.sidebar-glass {
+  background: rgba(255, 255, 255, 0.337); /* Transparente */
+  backdrop-filter: blur(10px); /* Desenfoque */
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 15px;
+}
+
+/* Logo dentro del sidebar */
+.logo {
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Lista de elementos del sidebar */
+.list-none {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Elementos de la lista */
+.list-none li {
+  margin-bottom: 10px;
+}
+
+/* Links del sidebar */
+.list-none li a {
+  display: flex;
+  align-items: left;
+  padding: 12px;
+  border-radius: 8px;
+  color: #FFF;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+/* Hover en los links */
+.list-none li a:hover {
+  background-color: rgba(171, 114, 195, 0.37) !important;
+}
+
+/* Íconos dentro de los links */
+.list-none li a i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+/* Menús desplegables */
+.p-ripple {
+  cursor: pointer;
+  padding: 12px;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  border-radius: 8px;
+  color: #FFF;
+  transition: background-color 0.3s;
+}
+
+.p-ripple:hover {
+  background-color: rgba(171, 114, 195, 0.37) !important;
+}
+
+/* Estilos para los submenús ocultos */
+.hidden {
+  display: none;
+}
+
+.slidedown {
+  animation: slideDown 0.3s ease-in-out;
+}
+
+.slideup {
+  animation: slideUp 0.3s ease-in-out;
+}
+
+.perfil-container {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-imagen {
+  width: 50px;  /* Ajusta el tamaño según necesites */
+  height: 50px;
+  border-radius: 50%; /* Hace la imagen redonda */
+  margin-right: 10px; /* Espacio entre la imagen y el nombre */
+}
+
+.nombre-usuario {
+  font-size: 16px; /* Ajusta según necesidad */
+  font-weight: bold;
+}
+
+@keyframes slideDown {
+  from {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+      opacity: 1;
+      transform: translateY(0);
+  }
+  to {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+}

@@ -1,0 +1,114 @@
+/* Usamos una clase específica para el componente de clientes */
+.clientes-dashboard {
+  padding: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Aplicamos estilos solo a la tarjeta dentro del componente de clientes */
+.clientes-dashboard .p-card {
+  background: linear-gradient(135deg, #f289b3 0%, #fed7e2 100%) !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  overflow: hidden;
+}
+
+/* Estilo para el título solo de esta tarjeta */
+.clientes-dashboard .p-card .p-card-title {
+  color: #4a5568 !important;
+  font-size: 1.5rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Contenedor para el contenido solo de esta tarjeta */
+.clientes-dashboard .p-card .p-card-content {
+  padding: 0 !important;
+}
+
+/* Estilo para el contenido de clientes */
+.clientes-dashboard .client-content {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .clientes-dashboard .client-content {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* Estilo para el total de clientes */
+.clientes-dashboard .client-total {
+  padding: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .clientes-dashboard .client-total {
+    width: 30%;
+    text-align: left;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    padding-right: 2rem;
+  }
+}
+
+.clientes-dashboard .client-total-number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #702459;
+  margin: 0.5rem 0;
+}
+
+/* Estilo para la gráfica de pastel */
+.clientes-dashboard .client-chart {
+  flex: 1;
+  height: 300px;
+  padding: 1rem;
+}
+
+/* Estilos para el tooltip */
+.clientes-dashboard .chart-tooltip {
+  background-color: white;
+  border-radius: 4px;
+  padding: 8px 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+  font-size: 0.875rem;
+}
+
+.clientes-dashboard .chart-tooltip p {
+  margin: 0;
+  padding: 2px 0;
+}
+
+.clientes-dashboard .chart-tooltip .tooltip-label {
+  font-weight: bold;
+}
+
+/* Estilos para la lista de datos de clientes */
+.clientes-dashboard .client-data-list {
+  display: none;
+}
+
+/* Estilos para la leyenda del gráfico */
+.clientes-dashboard .chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.clientes-dashboard .legend-item {
+  display: flex;
+  align-items: center;
+  margin: 0.25rem 0.5rem;
+}
+
+.clientes-dashboard .legend-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+

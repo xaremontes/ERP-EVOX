@@ -1,0 +1,55 @@
+/* Aplicar el fondo al contenedor principal */
+.custom-megamenu {
+    background-color: #AB72C3;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+/* Selecciona los enlaces de los elementos del menú */
+.custom-megamenu .p-menuitem-link {
+    background-color: #AB72C3;
+    color: #AB72C3 !important; /* Forzar texto en blanco */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    padding: 12px 18px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Asegurar que los textos sean blancos */
+.custom-megamenu .p-menuitem-text,
+.custom-megamenu .p-menuitem-content,
+.custom-megamenu .p-menuitem-link span {
+    color: white !important; /* Forzar color blanco en diferentes clases */
+}
+
+/* Íconos en blanco */
+.custom-megamenu .pi {
+    color: #FAD4E2 !important;
+}
+
+/* Hover para efecto visual */
+.custom-megamenu .p-menuitem-link:hover {
+    background-color: #FAD4E2;
+    color: #ffd700 !important;
+    transform: scale(1.05);
+}
+
+/* Submenús */
+.custom-megamenu .p-submenu-list {
+    background-color: #AB72C3!important;
+    border-radius: 5px;
+}
+
+/* Color del texto en los submenús */
+.custom-megamenu .p-menuitem {
+    color: white !important;
+}
+
+/* Efecto hover en los submenús */
+.custom-megamenu .p-menuitem:hover {
+    background-color: #FAD4E2 !important;
+}

@@ -1,0 +1,214 @@
+/* Estilos específicos para el módulo de inventario */
+.inventario-dashboard {
+  padding: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Estilo para la tarjeta con degradado rosa */
+.inventario-dashboard .p-card {
+  background: linear-gradient(135deg, #f687b3 0%, #fed7e2 100%) !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  overflow: hidden;
+}
+
+/* Estilo para el título de la tarjeta */
+.inventario-dashboard .p-card .p-card-title {
+  color: #702459 !important; /* Color más oscuro para mejor contraste con el fondo rosa */
+  font-size: 1.5rem !important;
+  margin-bottom: 1rem !important;
+  font-weight: 600;
+}
+
+/* Contenedor para el contenido de inventario */
+.inventario-dashboard .inventario-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Estilos para los KPIs */
+.inventario-dashboard .inventario-kpis {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .inventario-dashboard .inventario-kpis {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.inventario-dashboard .kpi-card {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.inventario-dashboard .kpi-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.inventario-dashboard .kpi-title {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin-bottom: 0.25rem;
+}
+
+.inventario-dashboard .kpi-value {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.inventario-dashboard .kpi-subtitle {
+  font-size: 0.75rem;
+  color: #64748b;
+  margin-top: 0.25rem;
+}
+
+/* Barra de progreso */
+.inventario-dashboard .progress-bar {
+  height: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 9999px;
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+
+.inventario-dashboard .progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #d53f8c 0%, #ed64a6 100%);
+  border-radius: 9999px;
+  transition: width 0.5s ease;
+}
+
+/* Estilos para el gráfico */
+.inventario-dashboard .chart-container {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.inventario-dashboard .chart-title {
+  font-size: 1rem;
+  color: #702459;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.inventario-dashboard .chart-wrapper {
+  height: 250px;
+  position: relative;
+}
+
+/* Estilos para la tabla de productos populares */
+.inventario-dashboard .popular-products {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.inventario-dashboard .section-title {
+  font-size: 1rem;
+  color: #702459;
+  margin: 0 0 0.75rem 0;
+  font-weight: 500;
+  text-align: center;
+}
+
+.inventario-dashboard .products-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.inventario-dashboard .table-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  background-color: rgba(226, 232, 240, 0.5);
+  border-radius: 0.25rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #475569;
+}
+
+.inventario-dashboard .table-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.inventario-dashboard .table-row:last-child {
+  border-bottom: none;
+}
+
+.inventario-dashboard .header-cell,
+.inventario-dashboard .table-cell {
+  padding: 0.625rem;
+  display: flex;
+  align-items: center;
+}
+
+.inventario-dashboard .stock-low {
+  color: #e11d48;
+  font-weight: 600;
+}
+
+.inventario-dashboard .stock-ok {
+  color: #0d9488;
+}
+
+.inventario-dashboard .demand-badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.inventario-dashboard .demand-badge.alta {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: #b91c1c;
+}
+
+.inventario-dashboard .demand-badge.media {
+  background-color: rgba(245, 158, 11, 0.1);
+  color: #b45309;
+}
+
+.inventario-dashboard .demand-badge.baja {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: #047857;
+}
+
+/* Estilos específicos para cada tipo de KPI */
+.inventario-dashboard .kpi-card:nth-child(1) .kpi-value {
+  color: #0284c7; /* Azul para total productos */
+}
+
+.inventario-dashboard .kpi-card:nth-child(2) .kpi-value {
+  color: #0d9488; /* Verde para valor de inventario */
+}
+
+.inventario-dashboard .kpi-card:nth-child(3) .kpi-value {
+  color: #7c3aed; /* Púrpura para rotación */
+}
+
+.inventario-dashboard .kpi-card:nth-child(4) .kpi-value {
+  color: #e11d48; /* Rojo para alertas */
+}
+
+/* Estilo especial para la tarjeta de alertas */
+.inventario-dashboard .alert-card {
+  border-left: 3px solid #e11d48;
+}
+
