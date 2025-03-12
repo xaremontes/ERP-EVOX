@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/tu-repositorio/static/css/main.3734cdfd.css",
-    "main.js": "/tu-repositorio/static/js/main.e0e76210.js",
-    "static/js/488.1ec9ad5d.chunk.js": "/tu-repositorio/static/js/488.1ec9ad5d.chunk.js",
-    "static/media/cherry.jpg": "/tu-repositorio/static/media/cherry.36b54a7caafb121369ba.jpg",
-    "static/media/primeicons.svg": "/tu-repositorio/static/media/primeicons.6ed59f962963a4a73af2.svg",
-    "static/media/bootstrap-icons.woff?": "/tu-repositorio/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
-    "static/media/bootstrap-icons.woff2?": "/tu-repositorio/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
-    "static/media/primeicons.eot": "/tu-repositorio/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
-    "static/media/primeicons.woff": "/tu-repositorio/static/media/primeicons.8931fda1930c3bd21e96.woff",
-    "static/media/primeicons.ttf": "/tu-repositorio/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
-    "static/media/primeicons.woff2": "/tu-repositorio/static/media/primeicons.024b32cc7bf399b1a847.woff2",
-    "index.html": "/tu-repositorio/index.html",
-    "main.3734cdfd.css.map": "/tu-repositorio/static/css/main.3734cdfd.css.map",
-    "main.e0e76210.js.map": "/tu-repositorio/static/js/main.e0e76210.js.map",
-    "488.1ec9ad5d.chunk.js.map": "/tu-repositorio/static/js/488.1ec9ad5d.chunk.js.map"
+    "main.css": "/ERP-EVOX/static/css/main.fc453ea0.css",
+    "main.js": "/ERP-EVOX/static/js/main.8cf4334e.js",
+    "static/js/488.1ec9ad5d.chunk.js": "/ERP-EVOX/static/js/488.1ec9ad5d.chunk.js",
+    "static/media/cherry.jpg": "/ERP-EVOX/static/media/cherry.36b54a7caafb121369ba.jpg",
+    "static/media/primeicons.svg": "/ERP-EVOX/static/media/primeicons.6ed59f962963a4a73af2.svg",
+    "static/media/bootstrap-icons.woff?": "/ERP-EVOX/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/ERP-EVOX/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/primeicons.eot": "/ERP-EVOX/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
+    "static/media/primeicons.woff": "/ERP-EVOX/static/media/primeicons.8931fda1930c3bd21e96.woff",
+    "static/media/primeicons.ttf": "/ERP-EVOX/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
+    "static/media/primeicons.woff2": "/ERP-EVOX/static/media/primeicons.024b32cc7bf399b1a847.woff2",
+    "index.html": "/ERP-EVOX/index.html",
+    "main.fc453ea0.css.map": "/ERP-EVOX/static/css/main.fc453ea0.css.map",
+    "main.8cf4334e.js.map": "/ERP-EVOX/static/js/main.8cf4334e.js.map",
+    "488.1ec9ad5d.chunk.js.map": "/ERP-EVOX/static/js/488.1ec9ad5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3734cdfd.css",
-    "static/js/main.e0e76210.js"
+    "static/css/main.fc453ea0.css",
+    "static/js/main.8cf4334e.js"
   ]
 }
