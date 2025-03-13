@@ -1,55 +1,93 @@
-/* Aplicar el fondo al contenedor principal */
+/* Estilos para el contenedor principal y todos sus ancestros */
+.megamenu-container,
+.card,
+.p-megamenu,
 .custom-megamenu {
-    background-color: #AB72C3;
-    border-radius: 8px;
-    padding: 15px;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Aplicar el fondo al contenedor principal y aumentar su altura */
+.custom-megamenu {
+  background-color: #ab72c3;
+  border-radius: 0;
+  height: calc(2cm + 20px) !important; /* Altura original (aprox. 60px) + 3cm adicionales */
+  display: flex !important;
+  align-items: center !important; /* Centrar verticalmente */
+}
+
+/* Asegurar que la lista de elementos ocupe todo el ancho */
+.custom-megamenu .p-megamenu-root-list {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important; /* Centrar horizontalmente */
+  padding: 0 !important;
+  height: 100% !important;
+  align-items: center !important; /* Centrar verticalmente */
+}
+
+/* Ocultar el botón de menú móvil */
+.custom-megamenu .p-megamenu-button {
+  display: none !important;
+}
+
+/* Ajustar el espacio entre elementos */
+.custom-megamenu .p-menuitem {
+  margin: 0 20px !important; /* Espacio horizontal entre elementos */
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
 }
 
 /* Selecciona los enlaces de los elementos del menú */
 .custom-megamenu .p-menuitem-link {
-    background-color: #AB72C3;
-    color: #AB72C3 !important; /* Forzar texto en blanco */
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    border-radius: 5px;
-    padding: 12px 18px;
-    margin: 0 10px;
-    text-decoration: none;
-    transition: background-color 0.3s, transform 0.2s;
+  background-color: #ab72c3;
+  color: #ab72c3 !important;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  margin: 0;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.2s;
+  height: auto !important;
 }
 
 /* Asegurar que los textos sean blancos */
 .custom-megamenu .p-menuitem-text,
 .custom-megamenu .p-menuitem-content,
 .custom-megamenu .p-menuitem-link span {
-    color: white !important; /* Forzar color blanco en diferentes clases */
+  color: white !important;
 }
 
 /* Íconos en blanco */
 .custom-megamenu .pi {
-    color: #FAD4E2 !important;
+  color: #fad4e2 !important;
 }
 
 /* Hover para efecto visual */
 .custom-megamenu .p-menuitem-link:hover {
-    background-color: #FAD4E2;
-    color: #ffd700 !important;
-    transform: scale(1.05);
+  background-color: #f9a8c6;
+  color: #ffd700 !important;
+  transform: scale(1.05);
 }
 
 /* Submenús */
 .custom-megamenu .p-submenu-list {
-    background-color: #AB72C3!important;
-    border-radius: 5px;
+  background-color: #ab72c3 !important;
+  border-radius: 5px;
 }
 
 /* Color del texto en los submenús */
 .custom-megamenu .p-menuitem {
-    color: white !important;
+  color: white !important;
 }
 
-/* Efecto hover en los submenús */
-.custom-megamenu .p-menuitem:hover {
-    background-color: #FAD4E2 !important;
+
+/* Estilos adicionales para los enlaces de React Router */
+.custom-megamenu a {
+  text-decoration: none;
 }
+
