@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ERP-EVOX/static/css/main.fc453ea0.css",
-    "main.js": "/ERP-EVOX/static/js/main.0c7083d9.js",
+    "main.css": "/ERP-EVOX/static/css/main.e4754b4b.css",
+    "main.js": "/ERP-EVOX/static/js/main.7e8d518a.js",
     "static/js/488.1ec9ad5d.chunk.js": "/ERP-EVOX/static/js/488.1ec9ad5d.chunk.js",
     "static/media/cherry.jpg": "/ERP-EVOX/static/media/cherry.36b54a7caafb121369ba.jpg",
     "static/media/primeicons.svg": "/ERP-EVOX/static/media/primeicons.6ed59f962963a4a73af2.svg",
@@ -12,12 +12,12 @@
     "static/media/primeicons.ttf": "/ERP-EVOX/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
     "static/media/primeicons.woff2": "/ERP-EVOX/static/media/primeicons.024b32cc7bf399b1a847.woff2",
     "index.html": "/ERP-EVOX/index.html",
-    "main.fc453ea0.css.map": "/ERP-EVOX/static/css/main.fc453ea0.css.map",
-    "main.0c7083d9.js.map": "/ERP-EVOX/static/js/main.0c7083d9.js.map",
+    "main.e4754b4b.css.map": "/ERP-EVOX/static/css/main.e4754b4b.css.map",
+    "main.7e8d518a.js.map": "/ERP-EVOX/static/js/main.7e8d518a.js.map",
     "488.1ec9ad5d.chunk.js.map": "/ERP-EVOX/static/js/488.1ec9ad5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc453ea0.css",
-    "static/js/main.0c7083d9.js"
+    "static/css/main.e4754b4b.css",
+    "static/js/main.7e8d518a.js"
   ]
 }
